@@ -1,0 +1,58 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: 'Boogaloo', cursive;
+  /*font-size: 18px;*/
+  background-image: linear-gradient(60deg, rgba(250,105,0,0.4) 2%, rgba(105,210,231,0.7)), url("assets/img/images3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.container{
+  margin-top: 5%;
+  width:90%;
+  max-width: 500px;
+}
+
+.jumbotron{
+  box-shadow: 3px 2px 2px rgba(0,0,0,0.5);
+  opacity:0.9;
+}
+
+
+.avatar{
+  width: 160px;
+  height: 160px;
+   box-shadow: 3px 2px 2px rgba(0,0,0,0.5);
+}
+
+ul{
+  padding-left: 0;
+}
+
+li{
+  list-style: none;
+}
+
+h4{
+  text-decoration: underline;
+}
+
+
+.social .fab:hover{
+  opacity:0.8;
+}
+
+.fa-facebook-square{
+  color:#3C5899;
+}
+
+.fa-twitter-square{
+  color:#55ACEE;
+}
+
+.fa-youtube-square{
+  color:#E32C28;
+}
+
